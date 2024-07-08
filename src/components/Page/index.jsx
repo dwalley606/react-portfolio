@@ -1,6 +1,7 @@
 import { useEffect } from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import PageContent from "../PageContent";
+import "./style.css"; // Import the CSS file for the component
 
 import { capitalizeFirstLetter } from "../../utils/helpers";
 import { Outlet } from "react-router-dom";
@@ -24,7 +25,7 @@ function Page({ currentPage }) {
 }
 
 Page.propTypes = {
-  currentPage: PropTypes.string.isRequired
+  currentPage: PropTypes.string.isRequired,
 };
 
 export default Page;

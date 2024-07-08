@@ -1,5 +1,6 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import coverImage from "../../assets/cover/cover-image.jpg";
+import "./style.css"; // Import the CSS file for the component
 
 function Header(props) {
   return (
@@ -12,7 +13,7 @@ function Header(props) {
 }
 
 Header.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
 };
 
 export default Header;
