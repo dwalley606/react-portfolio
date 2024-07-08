@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import PropTypes from 'prop-types';
 import PageContent from "../PageContent";
 
 import { capitalizeFirstLetter } from "../../utils/helpers";
@@ -21,4 +22,9 @@ function Page({ currentPage }) {
     </section>
   );
 }
+
+Page.propTypes = {
+  currentPage: PropTypes.string.isRequired
+};
+
 export default Page;
