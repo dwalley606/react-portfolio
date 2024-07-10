@@ -1,12 +1,10 @@
 import PropTypes from "prop-types";
-import coverImage from "../../assets/cover/cover-image.jpg";
 import "./style.css"; // Import the CSS file for the component
 
 function Header(props) {
   return (
-    <header className="flex-row space-between px-1">
-      <h1>Daniel Walley</h1>
-      <img src={coverImage} alt="wooden background"></img>
+    <header className="d-flex flex-row align-items-center">
+      <h1 className="me-3">Daniel Walley</h1>
       {props.children}
     </header>
   );
