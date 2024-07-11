@@ -18,7 +18,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="flex-row px-1">
+    <footer className="d-flex flex-row">
       {icons.map((icon) => (
         <a
           href={icon.link}

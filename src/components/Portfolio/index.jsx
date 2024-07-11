@@ -12,7 +12,7 @@ function Portfolio() {
     },
     {
       name: "ecommerceBackend",
-      description: "ORM with Node and Sequelize",
+      description: "ORM with Express and Sequelize",
       link: "https://github.com/dwalley606/e-commerce-backend",
       repo: "https://github.com/dwalley606/e-commerce-backend",
     },
@@ -33,6 +33,12 @@ function Portfolio() {
       description: "HTML/CSS/JavaScript",
       link: "https://jobeans24.github.io/Reviews/",
       repo: "https://github.com/jobeans24/Reviews",
+    },
+    {
+      name: "socialMediaBackend",
+      description: "MongoDB and Express",
+      link: "https://drive.google.com/file/d/1o7ZlWyqjYWPfy5tRsJvL34-bTsEW1GAV/view",
+      repo: "https://github.com/dwalley606/social-network-api?tab=readme-ov-file",
     },
   ]);
 

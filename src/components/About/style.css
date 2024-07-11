@@ -1,0 +1,12 @@
+.profile-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

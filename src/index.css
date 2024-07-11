@@ -4,12 +4,12 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #D10000;
+  --primary: #d10000;
   --secondary: #31343d;
-  --tertiary: #8D99AE;
+  --tertiary: #8d99ae;
   --light: #fafafa;
   --dark: #252627;
-  --darker: #D10000;
+  --darker: #d10000;
   --alpha: rgba(255, 255, 255, 0.7);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -121,15 +121,11 @@ span[role="img"] {
   cursor: default;
 }
 
-form {
-  width: 40%;
-}
-
 input {
   margin: 10px 0;
   font-size: 1rem;
   padding: 0.25rem;
-  width: 600px;
+  width: 100%;
   border: 1px solid var(--dark);
   outline: none;
   border-radius: 3px;
@@ -174,7 +170,7 @@ footer a:hover {
 }
 
 textarea {
-  width: 600px;
+  width: 100%;
   height: 200px;
   border: 3px solid #cccccc;
   padding: 5px;

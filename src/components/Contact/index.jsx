@@ -43,7 +43,7 @@ function Contact() {
   };
 
   return (
-    <section>
+    <section className="form-container">
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -79,6 +79,20 @@ function Contact() {
         )}
         <button type="submit">Submit</button>
       </form>
+
+      <div>
+        <h2>Contact Me Directly</h2>
+        <p>
+          If you would like to contact me directly please use the email or phone
+          number below.
+        </p>
+        <p>
+          Email: <a href="dwalley606@gmail.com">dwalley606@gmail.com</a>
+        </p>
+        <p>
+          Phone: <a href="tel:850-428-0777">850-428-0777</a>
+        </p>
+      </div>
     </section>
   );
 }
