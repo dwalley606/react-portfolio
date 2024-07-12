@@ -1,8 +1,44 @@
-# React + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to my portfolio of projects. Feel free to explore or continue to my socials.
+
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Tests](#tests)
+
+## Installation
+
+1. Clone the repository to your local machine.
+2. Navigate to the cloned repository and run `npm install` to install the necessary dependencies.
+3. Run `npm start` to start the development server.
+
+## Usage
+
+Explore my projects or how a React front end works.
+
+## License
+
+This project is covered under the MIT license. For more information, click the link below.
+[License Link](https://opensource.org/licenses/MIT)
+
+## Contributing
+
+This project was generated using starter code from the GWU Full-Stack Web Development Bootcamp.
+
+## Tests
+
+None
+
+## Questions
+
+Have questions about this project? Please see my Github profile at https://github.com/dwalley606.
+
+You can also send me an email at dwalley606@gmail.com.
