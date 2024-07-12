@@ -11,10 +11,9 @@ function About() {
         <p>
           Hello and welcome to my development portfolio! My name is Daniel
           Walley, and I am a full-stack web developer living and working in the
-          Washington, D.C. area. I have been developing web solutions since 2019
-          when I took over the website for the United States Air Force Band.
-          After leaving the Air Force in 2023, I have continued to study modern
-          web technology such as React.js, MongoDB, and Node.js.
+          Washington, D.C. area. I have been developing web solutions since
+          2019. I have recently studied modern web technology such as React.js,
+          MongoDB, and Node.js.
         </p>
       </div>
     </section>

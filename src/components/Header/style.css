@@ -11,7 +11,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 200px;
+  height: 150px;
   position: relative;
   overflow: hidden;
   z-index: 2;
