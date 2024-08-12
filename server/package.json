@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node config/newSeeds.js"
   },
   "repository": {
     "type": "git",
@@ -19,11 +20,18 @@
   "homepage": "https://github.com/dwalley606/react-portfolio#readme",
   "dependencies": {
     "@apollo/server": "^4.11.0",
+    "apollo-server-express": "^3.13.0",
     "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "express": "^4.19.2",
     "graphql": "^16.9.0",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
     "mongoose": "^8.5.2",
     "server": "file:"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
