@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
-import Error from "./components/ErrorPage";
-import About from "./components/About";
+import Error from "./pages/Error/Error";
+import About from "./pages/About/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
