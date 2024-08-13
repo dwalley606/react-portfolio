@@ -12,6 +12,7 @@ const typeDefs = gql`
 
   type Query {
     getProjects: [Project]
+    findProject(_id: ID!): Project
   }
 
   type Mutation {

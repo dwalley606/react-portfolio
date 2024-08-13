@@ -3,9 +3,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import Error from "./pages/Error/Error";
 import About from "./pages/About/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
+import Resume from "./pages/Resume/Resume";
 import "./index.css";
 
 const router = createBrowserRouter([
