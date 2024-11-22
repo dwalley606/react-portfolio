@@ -161,6 +161,10 @@ textarea {
   margin-top: 10px;
 }
 
+.navActive {
+  color: var(--light),
+}
+
 /* @media only screen and (max-width: 1300px) {
   nav {
     position: static;
