@@ -31,7 +31,7 @@ function Navigation() {
 
   return (
     <AppBar position="static">
-      <Toolbar sx={{ justifyContent: 'space-between' }}>
+      <Toolbar sx={{ justifyContent: 'space-between', height: '10vh' }}>
         <Typography variant="h4" component="h1" sx={{ fontWeight: 'bold', color: 'inherit' }}>
           Daniel Walley
         </Typography>

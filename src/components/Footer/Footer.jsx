@@ -27,11 +27,13 @@ function Footer() {
     <Box component="footer" sx={{ 
                               display: 'flex', 
                               justifyContent: 'space-around', 
-                              padding: 2, 
+                              alignItems: 'center', 
+                              padding: 1, 
                               backgroundColor: 'background.paper', 
                               position: "fixed", 
                               bottom: 0,
-                              width: "100%"
+                              width: "100%",
+                              height: '10vh',
                             }}>
       {icons.map((icon) => (
         <Link
@@ -39,19 +41,21 @@ function Footer() {
           key={icon.name}
           target="_blank"
           rel="noopener noreferrer"
-          sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', margin: 1, textDecoration: 'none', color: 'inherit' }}
+          sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 2, textDecoration: 'none', color: 'inherit' }}
         >
           <Box
             component="img"
             src={icon.img}
             alt={icon.name}
             sx={{
-              width: { xs: 30, sm: 38, md: 46 },
-              height: { xs: 30, sm: 38, md: 46 },
+              width: { xs: 20},
+              height: { xs: 20},
               marginBottom: 0.5,
             }}
           />
-          <Typography variant="body2">{icon.name}</Typography>
+          <Typography variant="caption" sx={{ fontSize: { xs: '0.6rem', sm: '0.7rem', md: '0.8rem' } }}>
+            {icon.name}
+          </Typography>
         </Link>
       ))}
     </Box>

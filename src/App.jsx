@@ -10,9 +10,9 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <Navigation />
-        <Box component="main" sx={{ flexGrow: 1, overflowY: 'auto', mb: 12 }}>
+        <Box component="main" sx={{ height: '80vh', mb: 12 }}>
           <Outlet />
         </Box>
         <Footer />
